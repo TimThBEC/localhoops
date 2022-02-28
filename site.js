@@ -1,11 +1,13 @@
 /*
 
-SITE JS CUT & PASTE -----------------------------------------------------------------
+LOCALHOOPS Site JS -----------------------------------------------------------------
 
 */
 
+var version = 1;
+
 $(document).ready(function () {
-    console.log("site.js loaded and ready");
+    console.log("site.js " + version);
   
     // Explore menu events
   
