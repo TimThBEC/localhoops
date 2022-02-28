@@ -1,0 +1,47 @@
+/* Global Variables */
+:root {
+    --dark-blue: #0b1c31;
+    --med-gray: #777;
+    --white: #fff;
+  }
+  
+  /* Pointer events */
+  
+  .hero__titles,
+  .hero__intro,
+  .hero__bg-vid,
+  .tab-hover-js {
+    pointer-events: none;
+  }
+  
+  .scroll-prompt {
+    pointer-events: auto;
+  }
+  
+  /* Splide slider */
+  
+  .splide__arrow.splide__arrow--next,
+  .splide__arrow.splide__arrow--prev,
+  .splide__pagination {
+    display: none;
+  }
+  
+  .splide *:focus {
+    outline: none;
+  }
+  
+  /* Classes used in JS */
+  
+  .reg-hvr__card {
+    background-image: linear-gradient(to bottom, var(--white), var(--white));
+    transform: scale(1.07);
+  }
+  
+  .reg-hvr__h {
+    color: var(--dark-blue);
+  }
+  
+  .reg-hvr__p {
+    color: var(--med-gray);
+  }
+  
