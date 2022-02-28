@@ -2,6 +2,8 @@
 
 // Page connections for nested reg cards
 
+var version = 1;
+
 var parentItems = ".offering__item-js"; // An object containing all the offerings shown on the page (filtered at the offering__wrap level)
 var parentTitles = ".offering__title-js"; // An object containing all the offering titles
 var childList = ".regs__list-js"; // An object containing all the instances of the div into which the registrations are to be placed (one per offering)
@@ -13,7 +15,7 @@ var childParentTitles = ".regs__wrap-js .reg__offering-js"; // An object contain
 // Doc Ready
 
 $(document).ready(function () {
-  console.log("training.js loaded and ready");
+  console.log("training.js v" +1);
 
   // Load training registrations to offerings
   loadRegs();

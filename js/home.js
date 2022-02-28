@@ -8,6 +8,8 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(DrawSVGPlugin);
 gsap.registerPlugin(MotionPathPlugin);
 
+var version = 1;
+
 var popUpOn = false; // Set to true to turn on popup
 var devToolsOn = false; // Set to true to turn on GSAP Dev Tools
 
@@ -223,7 +225,7 @@ var tenYrTL = gsap.timeline({
 */
 
 $(document).ready(function () {
-  console.log("home.js loaded and ready");
+  console.log("home.js v" + version);
 
   $(window).on("beforeunload", function () {
     $(window).scrollTop(0);

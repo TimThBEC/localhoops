@@ -1,5 +1,7 @@
 // LOCALHOOPS Overview Pages
 
+//  NOTE: PROBABLY OLD AND NOT USED - CHECK AND DELETE
+
 // Init
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);

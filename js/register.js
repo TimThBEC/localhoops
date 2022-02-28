@@ -1,7 +1,9 @@
 // LOCALHOOPS Register Page
 
+var version = 1;
+
 $(document).ready(function () {
-    console.log("register.js loaded and ready");
+    console.log("register.js v" + 1);
   
     $(".reg-itm__contr").mouseenter(function () {
       regItemHover(this);

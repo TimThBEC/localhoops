@@ -4,6 +4,7 @@
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
+var version = 1;
 // Page connections
 
 var firstContent = "#first-content-js";
@@ -14,7 +15,7 @@ var bgOverlay = ".tmplt__pg-bg-overlay-js";
 var moreButton = ".pg-intro__more-js";
 
 $(document).ready(function () {
-  console.log("template.js loaded and ready");
+  console.log("inner-pages-all.js v" + version);
 
   // Animation Definitions
 

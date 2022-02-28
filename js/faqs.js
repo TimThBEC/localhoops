@@ -4,13 +4,15 @@
 
 // Page connections
 
+var version = 1;
+
 var faq = ".faq-js"; // Set of all faqs
 var faqAnswerSet = ".faq__answer-wrap-js"; // Set of all answers
 var faqArrowSet = ".faq__arrow-js";
 var arrowRotate = "rotate__z-90-js";
 
 $(document).ready(function () {
-  console.log("faqs.js loaded and ready");
+  console.log("faqs.js v" + version);
 
   // Event Handlers
 
