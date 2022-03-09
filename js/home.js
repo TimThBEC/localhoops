@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(DrawSVGPlugin);
 gsap.registerPlugin(MotionPathPlugin);
 
-var version = 2.3;
+var version = 2.4;
 
 var popUpOn = false; // Set to true to turn on popup
 var devToolsOn = false; // Set to true to turn on GSAP Dev Tools
@@ -421,7 +421,7 @@ function gsapTLs() {
       opacity: 0,
       ease: "none"
     },
-    "<"
+    "<.12"
   );
 
   // Build coaches scroll timeline
