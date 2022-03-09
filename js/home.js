@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(DrawSVGPlugin);
 gsap.registerPlugin(MotionPathPlugin);
 
-var version = 1;
+var version = 2;
 
 var popUpOn = false; // Set to true to turn on popup
 var devToolsOn = false; // Set to true to turn on GSAP Dev Tools
