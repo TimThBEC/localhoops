@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(DrawSVGPlugin);
 gsap.registerPlugin(MotionPathPlugin);
 
-var version = 2;
+var version = 2.1;
 
 var popUpOn = false; // Set to true to turn on popup
 var devToolsOn = false; // Set to true to turn on GSAP Dev Tools
@@ -349,7 +349,7 @@ function gsapTLs() {
       opacity: 0,
       duration: 0.25
     },
-    "2.25"
+    "2"
   ); // Explosion Video fade out
 
   introTL.to(
