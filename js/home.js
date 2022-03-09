@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(DrawSVGPlugin);
 gsap.registerPlugin(MotionPathPlugin);
 
-var version = 2.2;
+var version = 2.3;
 
 var popUpOn = false; // Set to true to turn on popup
 var devToolsOn = false; // Set to true to turn on GSAP Dev Tools
@@ -349,7 +349,7 @@ function gsapTLs() {
       opacity: 0,
       duration: 0.25
     },
-    "1.5"
+    "2.25"
   ); // Explosion Video fade out
 
   introTL.to(
@@ -421,7 +421,7 @@ function gsapTLs() {
       opacity: 0,
       ease: "none"
     },
-    "<0.25"
+    "<"
   );
 
   // Build coaches scroll timeline
